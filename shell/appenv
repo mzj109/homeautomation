@@ -1,0 +1,4 @@
+export PYTHONPATH=~/code/tasks:~/code/web:~/code/tts:~/code/data_model:~/code/weather
+export LOGDIR=~/code/logs
+export LOCAL_MEDIA=/media/media/new-music/
+

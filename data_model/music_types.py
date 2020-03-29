@@ -1,0 +1,1 @@
+musictypes = ['indian-classical','western-classical','jazz','pop','latin','palomas_music','needs_classification']

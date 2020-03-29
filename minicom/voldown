@@ -1,0 +1,4 @@
+send !1MVLDOWN
+send !1MVLDOWN
+send !1MVLDOWN
+! killall -15 minicom
