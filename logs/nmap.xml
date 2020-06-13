@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
-<!-- Nmap 6.47 scan initiated Sat Mar 28 12:15:32 2020 as: nmap -sn -oX /home/volumio/code/logs/nmap.xml 192.168.1.0/24 -->
-<nmaprun scanner="nmap" args="nmap -sn -oX /home/volumio/code/logs/nmap.xml 192.168.1.0/24" start="1585412132" startstr="Sat Mar 28 12:15:32 2020" version="6.47" xmloutputversion="1.04">
+<!-- Nmap 6.47 scan initiated Sun Jun  7 22:49:25 2020 as: nmap -sn -oX /home/volumio/code/logs/nmap.xml 192.168.1.0/24 -->
+<nmaprun scanner="nmap" args="nmap -sn -oX /home/volumio/code/logs/nmap.xml 192.168.1.0/24" start="1591584565" startstr="Sun Jun  7 22:49:25 2020" version="6.47" xmloutputversion="1.04">
 <verbose level="0"/>
 <debugging level="0"/>
 <host><status state="up" reason="arp-response" reason_ttl="0"/>
@@ -10,71 +10,49 @@
 <address addr="48:5D:36:67:4F:DA" addrtype="mac"/>
 <hostnames>
 </hostnames>
-<times srtt="17649" rttvar="17649" to="100000"/>
+<times srtt="8579" rttvar="8579" to="100000"/>
 </host>
 <host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.152" addrtype="ipv4"/>
-<address addr="3C:A9:F4:01:4D:84" addrtype="mac" vendor="Intel Corporate"/>
+<address addr="192.168.1.6" addrtype="ipv4"/>
+<address addr="B8:E8:56:BF:97:1E" addrtype="mac" vendor="Apple"/>
 <hostnames>
 </hostnames>
-<times srtt="-69547" rttvar="5000" to="100000"/>
+<times srtt="113806" rttvar="113806" to="569030"/>
 </host>
 <host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.187" addrtype="ipv4"/>
-<address addr="00:21:5D:DE:B0:10" addrtype="mac" vendor="Intel Corporate"/>
-<hostnames>
-<hostname name="jhala-sony.fios-router.home" type="PTR"/>
-</hostnames>
-<times srtt="10000" rttvar="10000" to="100000"/>
-</host>
-<host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.189" addrtype="ipv4"/>
-<address addr="98:29:A6:D5:E1:8A" addrtype="mac"/>
-<hostnames>
-</hostnames>
-<times srtt="384" rttvar="5000" to="100000"/>
-</host>
-<host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.195" addrtype="ipv4"/>
+<address addr="192.168.1.10" addrtype="ipv4"/>
 <address addr="C8:D0:83:B2:E5:67" addrtype="mac"/>
 <hostnames>
+<hostname name="Apple-TV.fios-router.home" type="PTR"/>
 </hostnames>
-<times srtt="72216" rttvar="72216" to="361080"/>
+<times srtt="162825" rttvar="162825" to="814125"/>
 </host>
 <host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.235" addrtype="ipv4"/>
-<address addr="84:57:33:FB:9F:1F" addrtype="mac"/>
-<hostnames>
-<hostname name="XBOXONE.fios-router.home" type="PTR"/>
-</hostnames>
-<times srtt="424" rttvar="5000" to="100000"/>
-</host>
-<host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.246" addrtype="ipv4"/>
-<address addr="A0:63:91:16:87:50" addrtype="mac"/>
-<hostnames>
-</hostnames>
-<times srtt="-131692" rttvar="5000" to="100000"/>
-</host>
-<host><status state="up" reason="arp-response" reason_ttl="0"/>
-<address addr="192.168.1.250" addrtype="ipv4"/>
+<address addr="192.168.1.16" addrtype="ipv4"/>
 <address addr="40:B4:CD:48:0F:13" addrtype="mac"/>
 <hostnames>
 </hostnames>
-<times srtt="67347" rttvar="67347" to="336735"/>
+<times srtt="75304" rttvar="69812" to="354552"/>
 </host>
 <host><status state="up" reason="arp-response" reason_ttl="0"/>
 <address addr="192.168.1.251" addrtype="ipv4"/>
 <address addr="BC:AE:C5:CB:B3:A1" addrtype="mac" vendor="Asustek Computer"/>
 <hostnames>
 </hostnames>
-<times srtt="12689" rttvar="12689" to="100000"/>
+<times srtt="77134" rttvar="77134" to="385670"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.253" addrtype="ipv4"/>
+<address addr="BC:A5:11:37:25:6A" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<times srtt="9758" rttvar="9758" to="100000"/>
 </host>
 <host><status state="up" reason="localhost-response" reason_ttl="0"/>
-<address addr="192.168.1.252" addrtype="ipv4"/>
+<address addr="192.168.1.254" addrtype="ipv4"/>
 <hostnames>
 </hostnames>
 </host>
-<runstats><finished time="1585412137" timestr="Sat Mar 28 12:15:37 2020" elapsed="4.77" summary="Nmap done at Sat Mar 28 12:15:37 2020; 256 IP addresses (10 hosts up) scanned in 4.77 seconds" exit="success"/><hosts up="10" down="246" total="256"/>
+<runstats><finished time="1591584586" timestr="Sun Jun  7 22:49:46 2020" elapsed="21.69" summary="Nmap done at Sun Jun  7 22:49:46 2020; 256 IP addresses (7 hosts up) scanned in 21.69 seconds" exit="success"/><hosts up="7" down="249" total="256"/>
 </runstats>
 </nmaprun>

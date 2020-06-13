@@ -81,7 +81,7 @@ div {
     <h3 id="ret_string">{{ ret_string }} </h3>
     <br>
     <div>
-      <form action="http://192.168.1.252/" method="get" target="_blank">
+      <form action="http://192.168.1.254/" method="get" target="_blank">
          <input type="submit" value="Volumio Control">
       </form>
 
