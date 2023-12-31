@@ -1,0 +1,12 @@
+[Unit]
+Description=CELERY
+After=multi-user.target
+
+[Service]
+Type=simple
+User=pi
+Group=pi
+ExecStart=/home/pi/ha/shell/controller/start-celery.sh
+
+[Install]
+WantedBy=multi-user.target

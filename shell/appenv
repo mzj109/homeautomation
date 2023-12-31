@@ -1,0 +1,6 @@
+export APP_HOME=~/code/homeautomation
+export PYTHONPATH=$APP_HOME/tasks:$APP_HOME/web:$APP_HOME/tts:$APP_HOME/data_model:$APP_HOME/weather
+export LOGDIR=$APP_HOME/logs
+export LOCAL_MEDIA=/mnt/usb-disk/music/
+#export PATH=/opt/Python3.9/bin:/home/pi/.local/bin:/home/pi/myPy39/bin:/opt/Python3.9/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/usr/local/node-v14.17.3-linux-armv7l/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/Python3.9/lib

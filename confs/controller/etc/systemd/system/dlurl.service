@@ -1,0 +1,15 @@
+[Unit]
+Description=DLURL
+#After=multi-user.target
+After=redis.service
+
+[Service]
+#Type=forking
+Type=simple
+User=pi
+Group=pi
+ExecStart=/home/pi/code/homeautomation/shell/controller/start-dlurl.sh
+
+[Install]
+WantedBy=multi-user.target
+

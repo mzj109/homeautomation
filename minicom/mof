@@ -1,0 +1,2 @@
+send !1PWR00
+! killall -15 minicom

@@ -1,0 +1,14 @@
+[Unit]
+Description=REDIS
+After=network.target
+
+[Service]
+Type=forking
+User=pi
+Group=pi
+ExecStart=redis-server /home/pi/code/homeautomation/confs/controller/etc/redis/6379.conf
+#ExecStart=/home/pi/code/homeautomation/shell/start-redis.sh
+
+[Install]
+WantedBy=multi-user.target
+
