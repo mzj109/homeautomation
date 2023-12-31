@@ -1,0 +1,12 @@
+[Unit]
+Description=CELERY
+After=multi-user.target
+
+[Service]
+Type=simple
+User=volumio
+Group=volumio
+ExecStart=/home/volumio/code/shell/musicplayer/start-celery.sh
+
+[Install]
+WantedBy=multi-user.target
